@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ida Ali</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/css/glide.core.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/css/glide.theme.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/glide.min.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="top-nav">
+      <div class="nav-links">
+        <a href="#">STITCH REWARDS</a>
+        <a href="#">QUICK ORDER</a>
+        <a href="#">STORE LOCATOR</a>
+      </div>
+      <div class="user-actions">
+        <a href="#">CART</a>
+        <a href="#">SIGN UP</a>
+        <a href="#">LOG IN</a>
+      </div>
+    </div>
+    
+    <div class="logo-section">
+      <div class="logo">hab+dash</div>
+    </div>
+    
+    <div class="main-nav">
+      <a href="#">Top Thread</a>
+      <a href="#">Babious</a>
+      <a href="#">Stabilizer</a>
+      <a href="#">Dugleys</a>
+      <a href="#">Nations</a>
+    </div>
+  </header>
+  <section class="hero">
+    <img class="hero-bg" src="../images/image2.png" />
+    <div class="hero-content">
+      <h1>Add color to your masterpiece</h1>
+      <a href="#" class="btn">Shop Now</a>
+    </div>
+  </section>
+  <div class="section-nav-arrows">
+    <button class="nav-arrow prev">‹</button>
+    <button class="nav-arrow next">›</button>
+  </div>
+  
+  <section class="product-grid">
+    <div class="grid-item">
+      <img src="../images/image1.png"/>
+      <p>GLIDE</p>
+    </div>
+    <div class="grid-item">
+      <img src="../images/image1.png" />
+      <p>MAGNETIC CORE BOBBIN</p>
+    </div>
+    <div class="grid-item">
+      <img src="../images/image1.png"/>
+      <p>PREMIUM STABILIZER</p>
+    </div>
+  </section>
+
+  <section class="featured-section">
+    <div class="featured-content">
+      <h2>FEATURED PRODUCTS</h2>
+    </div>
+    
+    <div class="glide">
+      <div class="glide__track" data-glide-el="track">
+        <div class="glide__slides featured-products">
+          <div class="glide__slide product">
+            <img src="../images/image1.png"  />
+            <p>EMBROIDERY STABILIZER</p>
+          </div>
+          <div class="glide__slide product">
+            <img src="../images/image1.png" />
+            <p>CUBBIE GREY ELEPHANT</p>
+          </div>
+          <div class="glide__slide product">
+            <img src="../images/image1.png" />
+            <p>KIMBERBELL CUP OF CHEER</p>
+          </div>
+          <div class="glide__slide product">
+            <img src="../images/image1.png"  />
+            <p>KIMBERBELL TWO SCOOPS</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="section-nav-arrows1" data-glide-el="controls">
+        <button class="nav-arrow1 prev" data-glide-dir="<">←</button>
+        <button class="nav-arrow1 next" data-glide-dir=">">→</button>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-about">
+        <h1>hab+dash</h1>
+        <p>Hab+dash is a dream of the flavour technology company in China, he and his peers will be consultations of coming through and preparing solutions. Our dedication to collaboration with many innovative global solutions is committed to innovation, integration and work saving them, to address the problems we introduce. Our ideas are based on our products and processes to support our customers.</p>
+
+      </div>
+      
+      <div class="footer-section">
+        <h2>SUPPORT</h2>
+        <ul class="footer-links">
+          <li><a href="#">Stitch Records</a></li>
+          <li><a href="#">Core Return Program</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Terms and Conditions</a></li>
+          <li><a href="#">Online Dealers</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h2>USEFUL LINKS</h2>
+        <ul class="footer-links">
+          <li><a href="#">Digital Color Card</a></li>
+          <li><a href="#">Which Bolden Fix?</a></li>
+          <li><a href="#">Color Conversion</a></li>
+          <li><a href="#">Shabbier Applications</a></li>
+          <li><a href="#">Selecting a Shabbier</a></li>
+          <li><a href="#">New Star Features</a></li>
+          <li><a href="#">Institute of Heading</a></li>
+          <li><a href="#">Knibericki Salids</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h2>ABOUT US</h2>
+        <ul class="footer-links">
+          <li><a href="#">Our Story</a></li>
+          <li><a href="#">Share Subsidiaries</a></li>
+          <li><a href="#">Testimonials</a></li>
+        </ul>
+      </div>
+	<div class="footer-section newsletter ">
+      <h2>NEWSLETTER SIGN UP</h2>
+        <p>Subscribe our newsletter to unlock exclusive access to promotions, new product launches and novel</p>
+        <input type="email" placeholder="Your email address">
+        <button>Subscribe</button>
+    </div>
+</div>
+    
+    <div class="copyright">
+      <p>© 2024 Habadash, All rights reserved.</p>
+    </div>
+  </footer>
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    new Glide('.glide', {
+      type: 'carousel',
+      startAt: 0,
+      perView: 4, 
+      autoplay: 3000,
+      hoverpause: true,
+      gap: 20,
+      breakpoints: {
+        1200: {
+          perView: 3
+        },
+        768: {
+          perView: 2
+        },
+        480: {
+          perView: 1
+        }
+      }
+    }).mount();
+  });
+  </script>
+</body>
+</html>
